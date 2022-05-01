@@ -37,6 +37,29 @@
     flex-basis: calc(100% - 25px);
 }
 
+.menuHeader {
+    color: #FF00FF;
+    font-size: 24px;
+    border-bottom: #000000 1px solid;
+    width: 100px;
+    margin: 5px auto;
+}
+
+.menu>a {
+    display: inline-block;
+    background: url(./images/menu1.png) no-repeat;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    text-decoration: none;
+    color: #000000;
+    margin: 5px auto;
+}
+
+.menu>a:hover {
+    background: url(./images/menu2.png) no-repeat;
+}
+
 .update {
     flex-basis: 25px;
     font-size: 16px;
